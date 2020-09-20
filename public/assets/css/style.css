@@ -39,6 +39,7 @@ h1 {
 
 h2 {
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 body {
@@ -59,3 +60,7 @@ background: #FFD700;
   
 .card {
   background: #faebd7;}
+
+.add {
+  padding-bottom: 1rem;
+}

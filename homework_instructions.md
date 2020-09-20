@@ -10,7 +10,7 @@
   - [License](#license)
   - [Tests](#tests)
   - [Contributors](#contributors)
-  - [Details](#details)
+- [Demonstration](#demonstration)
 
   ## Installation
   Packages required to run this program are: npm i, npm my-sql, npm express, npm express-handlebars
@@ -26,6 +26,10 @@
 
   ## Contributors
   John Garcia
+
+## Demonstration
+
+![Burgergif](./burger.gif)
 
   ## Contact
   
