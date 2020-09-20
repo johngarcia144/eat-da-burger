@@ -1,25 +1,29 @@
 <h1 class="ml-5 text-center">EAT-DA-BURGER</h1>
-
+<img src="/assets/image/burger.png" class="burger">
 <div class="row">
+  
+
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-<ul>
+    <h2 class="ml-5 text-center">BURGERS-TA-EAT</h2>
+<ol>
   {{#each burgers}}
     {{#unless devour}}
       {{> burgers/burger-block devour=true}}
     {{/unless}}
   {{/each}}
-</ul>
+</ol>
 </div>
 
 
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-<ul>
+  <h2 class="ml-5 text-center">BURGERS-YA-ATE</h2>
+<ol>
   {{#each burgers}}
     {{#if devour}}
       {{> burgers/burger-block devour=false}}
     {{/if}}
   {{/each}}
-</ul>
+</ol>
 </div>
 </div>
 
