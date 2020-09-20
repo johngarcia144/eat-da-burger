@@ -4,7 +4,7 @@
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 <ul>
   {{#each burgers}}
-    {{#unless devoured}}
+    {{#unless devour}}
       {{> burgers/burger-block devour=true}}
     {{/unless}}
   {{/each}}
@@ -15,7 +15,7 @@
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 <ul>
   {{#each burgers}}
-    {{#if devoured}}
+    {{#if devour}}
       {{> burgers/burger-block devour=false}}
     {{/if}}
   {{/each}}
