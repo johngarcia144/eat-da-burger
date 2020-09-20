@@ -32,3 +32,31 @@ li {
 h1 {
   text-align: center;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+body {
+background: #FFD700;
+}
+
+.card-body {
+  background: #faebd7;
+  }
+  
+.create-form {
+  background: #faebd7;
+}
+  
+.card-title {
+  background: #faebd7;
+}
+  
+.card {
+  background: #faebd7;}
+  
